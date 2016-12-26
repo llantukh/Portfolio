@@ -9,6 +9,18 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       templateUrl: 'templates/home.tpl.html'
       // controller: 'homeController as home'
     })
+    .state('root.projects', {
+      url: '/projects',
+      templateUrl: 'templates/projects.tpl.html'
+    })
+    .state('root.resume', {
+      url: '/resume',
+      templateUrl: 'templates/resume.tpl.html'
+    })
+    .state('root.contact', {
+      url: '/contact',
+      templateUrl: 'templates/contact.tpl.html'
+    })
 
     $urlRouterProvider.otherwise('/');
 }
