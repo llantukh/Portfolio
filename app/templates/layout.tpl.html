@@ -1,14 +1,34 @@
-<nav class="nav has-shadow">
-  <!-- <div class="container"> -->
+<div class="box">
+
+  <nav class="nav has-shadow">
     <div class="nav-left">
       <a ui-sref="root.home" class="nav-item is-tab is-active">Home</a>
       <a ui-sref="root.projects" class="nav-item is-tab">Projects</a>
       <a ui-sref="root.resume" class="nav-item is-tab">Resume</a>
       <a ui-sref="root.contact" class="nav-item is-tab">Contact Me</a>
     </div>
-    </div>
-  <!-- </div> -->
-</nav>
+  </nav>
 
-<div ui-view>
+  <div class="section" ui-view>
+  </div>
+
+  <div>
+    <footer>
+      <div class="container">
+        <div class="content has-text-centered">
+          <a href="https://github.com/llantukh">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+          <a href="mailto:liliya.lantukh@gmail.com">
+            <span class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 </div>
