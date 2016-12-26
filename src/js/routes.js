@@ -12,6 +12,12 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
     .state('root.projects', {
       url: '/projects',
       templateUrl: 'templates/projects.tpl.html'
+      // controller: 'projectsController as projects'
+    })
+    .state('root.project', {
+      url: '/projects/:name',
+      templateUrl: 'templates/single.tpl.html',
+      // controller: 'SingleController as single'
     })
     .state('root.resume', {
       url: '/resume',
