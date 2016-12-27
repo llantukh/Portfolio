@@ -1,1 +1,21 @@
 @import 'bulma';
+
+.projectGrid {
+  // background-image: url("../images/wallpaper.jpg");
+  width: 44%;
+  float: left;
+  padding: 3%;
+  margin: 3%;
+  border-style: double;
+}
+
+.container {
+  overflow: auto;
+}
+
+.section {
+  clear: both;
+}
+
+body {
+}

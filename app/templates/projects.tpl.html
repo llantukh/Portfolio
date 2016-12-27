@@ -1,17 +1,19 @@
-<div class="card" ng-repeat="all in projects.all">
-  <header class="card-header">
-    <p class="card-header-title">
-      <img class= "media-object" src="{{all.image}}"
-    </p>
-  </header>
-  <div class="card-content has-text-centered">
-    <h1 class="title">{{all.name}}</h1>
-    <div class="content">
-      {{all.summary}}
+<div class="projectGrid" ng-repeat="all in projects.all">
+  <div class="card is-fullwidth">
+    <header class="card-header">
+      <p class="card-header-title">
+        <img class= "media-object" src="{{all.image}}"
+      </p>
+    </header>
+    <div class="card-content has-text-centered">
+      <h1 class="title">{{all.name}}</h1>
+      <div class="content">
+        {{all.summary}}
+      </div>
     </div>
+    <footer class="card-footer">
+      <a href="{{all.liveLink}}" class="card-footer-item">Demo</a>
+      <a href="{{all.ghLink}}" class="card-footer-item">Code</a>
+    </footer>
   </div>
-  <footer class="card-footer">
-    <a href="{{all.liveLink}}" class="card-footer-item">Demo</a>
-    <a href="{{all.ghLink}}" class="card-footer-item">Code</a>
-  </footer>
 </div>
