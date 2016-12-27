@@ -1,23 +1,17 @@
-
-
-<div class="card is-fullwidth">
+<div class="card" ng-repeat="all in projects.all">
   <header class="card-header">
     <p class="card-header-title">
-      Project Title
+      <img class= "media-object" src="{{all.image}}"
     </p>
-    <a class="card-header-icon">
-      <i class="fa fa-angle-down"></i>
-    </a>
   </header>
-  <div class="card-content">
+  <div class="card-content has-text-centered">
+    <h1 class="title">{{all.name}}</h1>
     <div class="content">
-      Image and description.
-
+      {{all.summary}}
     </div>
   </div>
   <footer class="card-footer">
-    <a class="card-footer-item">Save</a>
-    <a class="card-footer-item">Edit</a>
-    <a class="card-footer-item">Delete</a>
+    <a href="{{all.liveLink}}" class="card-footer-item">Demo</a>
+    <a href="{{all.ghLink}}" class="card-footer-item">Code</a>
   </footer>
 </div>

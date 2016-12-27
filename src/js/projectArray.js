@@ -30,7 +30,7 @@ const allProjects = [
   },
   // SoundCloud Music App
   {
-    name: 'SoundCloud Music App',
+    name: 'Soundcloud App',
     summary: 'Search for an artist. Listen to them.',
     description: 'This was one of my first times digging into an API. I created an app where users can search for an arist, get back a list of songs, and listen to them. Because there could never be enough music apps that do the same thing.',
     tech: 'jQuery',

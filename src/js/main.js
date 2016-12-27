@@ -1,5 +1,6 @@
 import angular from 'angular';
 import 'angular-ui-router';
+import _ from 'lodash';
 
 import { routerConfig } from './routes';
 import { homeController } from "./controllers/home.js";
