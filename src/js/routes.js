@@ -6,18 +6,18 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
     })
     .state('root.home', {
       url: '/',
-      templateUrl: 'templates/home.tpl.html'
-      // controller: 'homeController as home'
+      templateUrl: 'templates/home.tpl.html',
+      controller: 'homeController as home'
     })
     .state('root.projects', {
       url: '/projects',
-      templateUrl: 'templates/projects.tpl.html'
-      // controller: 'projectsController as projects'
+      templateUrl: 'templates/projects.tpl.html',
+      controller: 'projectsController as projects'
     })
     .state('root.project', {
       url: '/projects/:name',
       templateUrl: 'templates/single.tpl.html',
-      // controller: 'SingleController as single'
+      controller: 'singleController as single'
     })
     .state('root.resume', {
       url: '/resume',

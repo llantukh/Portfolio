@@ -1,0 +1,5 @@
+function singleController () {
+
+}
+
+export { singleController };
