@@ -7,7 +7,9 @@
   float: left;
   padding: 3%;
   margin: 3%;
+  // margin: auto;
   border-style: double;
+  border-radius: 5px;
 }
 
 .container {
@@ -18,5 +20,40 @@
   clear: both;
 }
 
-body {
+.face {
+  width: 48%;
+  margin: auto;
+  margin: 1%;
+  padding: 2%;
+  font-size: 24px;
+  float: left;
+  background-color: grey;
+  border-style: double;
+  border-radius: 5px;
+  color: white;
+}
+
+.main {
+  overflow: auto;
+  margin-top: 2%;
+}
+
+.contact-icons {
+  margin-top: 14%;
+  margin-bottom: 5%;
+}
+
+.about {
+  background-color: grey;
+  border-style: double;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  display: block;
+  padding: 20px;
+  color: white;
+}
+
+.resume {
+  width: 75%;
+  margin: auto;
 }
