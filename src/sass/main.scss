@@ -1,36 +1,7 @@
 @import 'bulma';
 
-.projectGrid {
-  background-color: grey;
-  width: 475px;
-  height: 475px;
-  float: left;
-  padding: 3%;
-  margin: 3%;
-  // margin: auto;
-  border-style: double;
-  border-radius: 5px;
-}
-
 .container {
   overflow: auto;
-}
-
-.section {
-  clear: both;
-}
-
-.face {
-  width: 48%;
-  margin: auto;
-  margin: 1%;
-  padding: 2%;
-  font-size: 24px;
-  float: left;
-  background-color: grey;
-  border-style: double;
-  border-radius: 5px;
-  color: white;
 }
 
 .main {
@@ -38,22 +9,51 @@
   margin-top: 2%;
 }
 
-.contact-icons {
-  margin-top: 14%;
-  margin-bottom: 5%;
+.face {
+  width: 48%;
+  margin: auto;
+  margin: 1%;
+  padding: 2%;
+  font-size: 20px;
+  float: left;
 }
 
-.about {
+.title {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.allFont {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact-icons {
+  margin-top: 5%;
+}
+
+.projectGrid {
+  // margin: auto;
+  margin: 3%;
   background-color: grey;
+  width: 475px;
+  height: 475px;
+  float: left;
+  padding: 3%;
   border-style: double;
   border-radius: 5px;
-  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  display: block;
-  padding: 20px;
-  color: white;
 }
 
 .resume {
   width: 75%;
   margin: auto;
+}
+
+.chat {
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 50%;
+  background-color: grey;
+  border-style: double;
+  border-radius: 5px;
+  padding: 20px;
 }
