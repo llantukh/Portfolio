@@ -1,5 +1,7 @@
 @import 'bulma';
 
+// all pages
+
 body {
   // background-color: #993F20;
   background-color: #0D394C;
@@ -20,6 +22,8 @@ body {
   margin-top: 2%;
   margin-bottom: 30%;
 }
+
+// home page
 
 .face {
   width: 48%;
@@ -42,6 +46,8 @@ body {
   margin-top: 7%;
 }
 
+// projects page
+
 .projectGrid {
   margin: 3%;
   background-color: lightgrey;
@@ -57,6 +63,26 @@ body {
 .project-list {
   margin-left: 4%;
 }
+.mouseOver {
+  position: absolute;
+  visibility: hidden;
+  z-index: 2;
+  background-color: #0D394C;
+  opacity: .95;
+  color: white;
+  padding: 2%;
+  font-size: 22px;
+  width: 400px;
+  height: 320px;
+  overflow: auto;
+}
+
+.projectGrid:hover .mouseOver {
+  visibility: visible;
+}
+
+
+// resume page
 
 .resume {
   width: 75%;
@@ -97,17 +123,6 @@ ul {
 
 .bold {
   font-weight: bold;
-}
-
-.chat {
-  margin: auto;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  width: 50%;
-  background-color: grey;
-  border-style: double;
-  border-radius: 5px;
-  padding: 20px;
 }
 
 .nav-center {

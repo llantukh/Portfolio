@@ -3,11 +3,17 @@
   <div class="project-list">
     <div class="projectGrid" ng-repeat="all in projects.all">
       <div class="card is-fullwidth">
-        <header class="card-header">
-          <p class="card-header-title">
-            <img class= "media-object" src="{{all.image}}"
-          </p>
-        </header>
+          <header class="card-header">
+            <div class="mouseOver">
+              <p>{{all.description}}</p>
+              <br>
+              <p>{{all.tech}}</p>
+            </div>
+
+            <p class="card-header-title">
+              <img class= "media-object" src="{{all.image}}">
+            </p>
+          </header>
         <div class="card-content has-text-centered">
           <h1 class="title">{{all.name}}</h1>
           <div class="content">

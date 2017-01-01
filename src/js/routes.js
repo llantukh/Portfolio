@@ -14,8 +14,8 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       templateUrl: 'templates/projects.tpl.html',
       controller: 'projectsController as projects'
     })
-    .state('root.project', {
-      url: '/projects/:name',
+    .state('root.projects.single', {
+      url: '/single/:name',
       templateUrl: 'templates/single.tpl.html',
       controller: 'singleController as single'
     })

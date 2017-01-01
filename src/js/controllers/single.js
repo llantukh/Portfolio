@@ -1,5 +1,0 @@
-function singleController () {
-
-}
-
-export { singleController };
