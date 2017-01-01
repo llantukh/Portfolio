@@ -1,12 +1,24 @@
 @import 'bulma';
 
+body {
+  // background-color: #993F20;
+  background-color: #0D394C;
+}
+
 .container {
   overflow: auto;
+
+}
+
+.navigation {
+  margin-top: 2%;
+  border-radius: 5px;
 }
 
 .main {
   overflow: auto;
   margin-top: 2%;
+  margin-bottom: 30%;
 }
 
 .face {
@@ -27,13 +39,13 @@
 }
 
 .contact-icons {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .projectGrid {
-  margin: auto;
   margin: 3%;
-  background-color: grey;
+  background-color: lightgrey;
+  opacity: .9;
   width: 475px;
   height: 475px;
   float: left;
@@ -42,13 +54,17 @@
   border-radius: 5px;
 }
 
+.project-list {
+  margin-left: 4%;
+}
+
 .resume {
   width: 75%;
   margin: auto;
 }
 
 .resume-section {
-  color: #00D1B2;
+  color: #0D394C;
   border-top: 1px solid lightgrey;
 }
 
