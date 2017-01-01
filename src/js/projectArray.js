@@ -36,7 +36,7 @@ const allProjects = [
     // tech: 'jQuery',
     liveLink: 'http://tiy-lelawalker-soundcloud-music-app.surge.sh',
     ghLink: 'https://github.com/llantukh/soundcloud-music-app',
-    image: 'images/SoundCloud.jpg'
+    image: 'images/soundCloud.jpg'
   }
 
 ]
