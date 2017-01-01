@@ -31,7 +31,7 @@
 }
 
 .projectGrid {
-  // margin: auto;
+  margin: auto;
   margin: 3%;
   background-color: grey;
   width: 475px;
@@ -47,6 +47,42 @@
   margin: auto;
 }
 
+.resume-section {
+  color: #00D1B2;
+  border-top: 1px solid lightgrey;
+}
+
+.resume-info {
+  margin-left: 1%;
+}
+
+.more-info {
+  margin-left: 1.5%;
+}
+
+.level-right {
+  margin-right: 1.5%;
+}
+
+.even-more-info {
+  margin-left: 2%;
+  list-style: circle;
+}
+
+.job-title {
+  margin-top: none;
+  margin-bottom: 1%;
+  font-style: italic;
+}
+
+ul {
+  list-style: disc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .chat {
   margin: auto;
   margin-top: 6%;
@@ -56,4 +92,8 @@
   border-style: double;
   border-radius: 5px;
   padding: 20px;
+}
+
+.nav-center {
+  margin-top: 2%;
 }
