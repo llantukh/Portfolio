@@ -24,7 +24,7 @@ const allProjects = [
   {
     name: 'Testify',
     summary: 'Gilded Rose Nightmare',
-    description: 'Horrific Legacy code refactoring. We had to work out the famous Gilded Rose inventory system and make sense of it without breaking the existing tests. And Google was forbidden during the assignment.',
+    description: 'We had to work out the famous Gilded Rose inventory system to practice legacy code refactoring without breaking the existing tests. Google was forbidden during the assignment.',
     ghLink: 'https://github.com/llantukh/testify',
     image: 'images/gildedRose.jpg',
   },
