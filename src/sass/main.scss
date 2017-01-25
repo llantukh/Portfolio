@@ -20,10 +20,10 @@ body {
 .main {
   overflow: auto;
   margin-top: 2%;
-  margin-bottom: 30%;
+  margin-bottom: 5%;
 }
 
-// home page
+// about section
 
 .face {
   width: 48%;
@@ -47,7 +47,11 @@ body {
   margin-top: 7%;
 }
 
-// projects page
+// projects section
+
+.project-section {
+  margin-top: 2%;
+}
 
 .projectGrid {
   margin: 3%;
@@ -62,8 +66,9 @@ body {
 }
 
 .project-list {
-  margin-left: 4%;
+  margin-left: 5%;
 }
+
 .mouseOver {
   position: absolute;
   visibility: hidden;
@@ -83,7 +88,11 @@ body {
 }
 
 
-// resume page
+// resume section
+
+.resumeSection {
+  margin-top: 100%;
+}
 
 .resume {
   width: 75%;
