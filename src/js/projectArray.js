@@ -13,7 +13,7 @@ const allProjects = [
   // Aqua Lust
   {
     name: 'Aqua Lust',
-    summary: 'Basically Instagram...for one user.',
+    summary: 'Instagram...for one user.',
     description: 'Aqua Lust allows users to take pictures, upload them, like them, and leave comments. Just make sure your pictures are aqua flavored.',
     tech: 'This app was built with a teammate during a weekend Hackathon. We built both the front and back end and used AngularJS, Bulma, and AdonisJS.',
     liveLink: 'http://tiy-lelawalker-hackathon-frontend.surge.sh/#/',
@@ -30,8 +30,8 @@ const allProjects = [
   },
   // SoundCloud Music App
   {
-    name: 'Soundcloud App',
-    summary: 'Search for an artist. Listen to them.',
+    name: 'Music App',
+    summary: 'Almost as cool as Spotify.',
     description: 'This was one of my first times digging into an API. I created an app where users can search for an arist, get back a list of songs, and listen to them. Because there could never be enough music apps that do the same thing.',
     // tech: 'jQuery',
     liveLink: 'http://tiy-lelawalker-soundcloud-music-app.surge.sh',
