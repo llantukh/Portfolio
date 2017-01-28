@@ -3,7 +3,6 @@
 // all pages
 
 body {
-  // background-color: #993F20;
   background-color: #0D394C;
 }
 
@@ -22,6 +21,16 @@ body {
   margin-top: 2%;
   margin-bottom: 5%;
 }
+
+.box {
+  background-color: lightgrey;
+  border-style: double;
+}
+
+.section {
+  background-color: lightgrey;
+}
+
 
 // about section
 
@@ -49,10 +58,6 @@ body {
 
 // projects section
 
-.project-section {
-  margin-top: 2%;
-}
-
 .projectGrid {
   margin: 1%;
   background-color: lightgrey;
@@ -64,15 +69,6 @@ body {
   border-style: double;
   border-radius: 5px;
 }
-
-.project-list {
-  // margin-left: 5%;
-}
-
-// .media-object {
-//   max-width: 90%;
-//   max-height: 400px;
-// }
 
 .mouseOver {
   position: absolute;
