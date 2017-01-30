@@ -3,9 +3,13 @@
   <nav class="nav has-shadow navigation">
     <div class="nav-left">
       <a ui-sref="root.home" class="nav-item is-tab">Home</a>
+      <a ng-click="home.scrollTo('about')" class="nav-item is-tab">About</a>
       <a ng-click="home.scrollTo('projects')" class="nav-item is-tab">Projects</a>
-      <a ng-click="home.scrollTo('resume')" class="nav-item is-tab">Resume</a>
+      <a ng-click="home.scrollTo('skills')" class="nav-item is-tab">Skills</a>
       <a ng-click="home.scrollTo('contact')" class="nav-item is-tab">Contact Me</a>
+    </div>
+    <div class="nav-right">
+      <a ng-click="home.scrollTo('resume')" class="nav-item is-tab">Resume</a>
     </div>
   </nav>
 
