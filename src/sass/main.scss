@@ -12,13 +12,19 @@ body {
 }
 
 .navigation {
-  margin-top: 2%;
-  border-radius: 5px;
+  background-color: #0D394C;
+  font-size: 25px;
+  position: fixed;
+  z-index: 5;
+  width: 94%;
+  // border-radius: 5px;
+  // border-style: double;
+  // background-color: lightgrey;
 }
 
 .main {
   overflow: auto;
-  margin-top: 2%;
+  // margin-top: 2%;
   margin-bottom: 5%;
 }
 
