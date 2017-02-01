@@ -24,8 +24,7 @@ body {
 
 .main {
   overflow: auto;
-  // margin-top: 2%;
-  margin-bottom: 5%;
+  // margin-bottom: 5%;
 }
 
 .box {
@@ -38,22 +37,27 @@ body {
 }
 
 .all-content {
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 // home section
 
 .home-section {
   min-height: 100vh;
-  background-color: pink;
-  // margin-top: 10%;
+  // background-color: pink;
+}
+
+.greeting {
+  font-size: 100px;
+  text-align: center;
+  color: lightgrey;
 }
 
 // about section
 
 .about-section {
   min-height: 100vh;
-  background-color: green;
+  // background-color: green;
 }
 
 .face {
@@ -82,7 +86,7 @@ body {
 
 .project-section {
   min-height: 100vh;
-  background-color: yellow;
+  // background-color: yellow;
 }
 
 .projectGrid {
