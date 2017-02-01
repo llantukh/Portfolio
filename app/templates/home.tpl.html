@@ -3,9 +3,16 @@
   <!-- home  -->
   <div class="home-section" id="home">
 
-    <div class="box">
-      <img src="./images/Ukraine-Flag.jpg" alt="">
-
+    <div class="all-content">
+      <div class="box">
+        <!-- <img src="./images/Ukraine-Flag.jpg" alt=""> -->
+        <div class="english">
+          hello.
+        </div>
+        <div class="russian">
+          привет.
+        </div>
+      </div>
     </div>
 
   </div>
@@ -13,29 +20,31 @@
   <!-- about -->
   <div class="about-section main" id="about">
 
-    <div class="box face">
-      <img src="./images/face2.jpg" alt="">
-    </div>
-    <div class="box face">
-      <div class="title is-1 has-text-centered">
-        about me
+    <div class="all-content">
+      <div class="box face">
+        <img src="./images/face2.jpg" alt="">
       </div>
-      <div class="allFont">
-        Hey y'all I'm Liliya ( I go by Lela ) and I love creating things. I am a front end developer and recent grad of The Iron Yard. Prior to coding I was an accountant at a nonprofit. In my spare time I like to paint and draw, and I have discovered that coding gives me the same level of satisfaction that creating art does.
-        <br><br>
-        When I'm not busy creating, I love spending time with my enormous family (I'm one of 7 kids). I also enjoy scuba diving, kayaking, and really anything on the water.
-      </div>
-      <div class="contact-icons has-text-centered">
-        <a href="https://github.com/llantukh">
-          <span class="icon">
-            <i class="fa fa-github"></i>
-          </span>
-        </a>
-        <a href="mailto:liliya.lantukh@gmail.com">
-          <span class="icon">
-            <i class="fa fa-envelope-o"></i>
-          </span>
-        </a>
+      <div class="box face">
+        <div class="title is-1 has-text-centered">
+          about me
+        </div>
+        <div class="allFont">
+          Hey y'all I'm Liliya ( I go by Lela ) and I love creating things. I am a front end developer and recent grad of The Iron Yard. Prior to coding I was an accountant at a nonprofit. In my spare time I like to paint and draw, and I have discovered that coding gives me the same level of satisfaction that creating art does.
+          <br><br>
+          When I'm not busy creating, I love spending time with my enormous family (I'm one of 7 kids). I also enjoy scuba diving, kayaking, and really anything on the water.
+        </div>
+        <div class="contact-icons has-text-centered">
+          <a href="https://github.com/llantukh">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+          <a href="mailto:liliya.lantukh@gmail.com">
+            <span class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </span>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -44,30 +53,32 @@
   <!-- projects -->
   <div class="project-section" id="projects">
 
-    <div class="project-list">
-      <div class="projectGrid" ng-repeat="all in home.all">
-        <div class="card">
-            <header class="card-header">
-              <div class="mouseOver">
-                <p>{{all.description}}</p>
-                <br>
-                <p>{{all.tech}}</p>
-              </div>
+    <div class="all-content">
+      <div class="project-list">
+        <div class="projectGrid" ng-repeat="all in home.all">
+          <div class="card">
+              <header class="card-header">
+                <div class="mouseOver">
+                  <p>{{all.description}}</p>
+                  <br>
+                  <p>{{all.tech}}</p>
+                </div>
 
-              <p class="card-header-title">
-                <img class= "media-object" src="{{all.image}}">
-              </p>
-            </header>
-          <div class="card-content has-text-centered">
-            <h1 class="title">{{all.name}}</h1>
-            <div class="content">
-              {{all.summary}}
+                <p class="card-header-title">
+                  <img class= "media-object" src="{{all.image}}">
+                </p>
+              </header>
+            <div class="card-content has-text-centered">
+              <h1 class="title">{{all.name}}</h1>
+              <div class="content">
+                {{all.summary}}
+              </div>
             </div>
+            <footer class="card-footer">
+              <a href="{{all.liveLink}}" class="card-footer-item">Demo</a>
+              <a href="{{all.ghLink}}" class="card-footer-item">Code</a>
+            </footer>
           </div>
-          <footer class="card-footer">
-            <a href="{{all.liveLink}}" class="card-footer-item">Demo</a>
-            <a href="{{all.ghLink}}" class="card-footer-item">Code</a>
-          </footer>
         </div>
       </div>
     </div>
@@ -232,37 +243,49 @@
 
   </div> -->
 
+  <!-- skills section -->
+
+  <div class="skills-section" id="skills">
+
+    <div class="all-content">
+
+    </div>
+
+  </div>
+
 <!-- contact me -->
 
   <div class="contact-section">
 
-    <div class="box main" id="contact">
-      <div class="section">
-        <p class="title is-1 has-text-centered">let's chat</p>
-        <a href="https://github.com/llantukh" class="nav-center">
-          <span class="icon">
-            <i class="fa fa-github"></i>
-          </span>
-          <span class="subtitle">
-            github.com/llantukh
-          </span>
-        </a>
-        <a href="mailto:liliya.lantukh@gmail.com" class="nav-center">
-          <span class="icon">
-            <i class="fa fa-envelope-o"></i>
-          </span>
-          <span class="subtitle">
-            liliya.lantukh@gmail.com
-          </span>
-        </a>
-        <a class="nav-center">
-          <span class="icon">
-            <i class="fa fa-mobile"></i>
-          </span>
-          <span class="subtitle">
-            (404) 358-8062
-          </span>
-        </a>
+    <div class="all-content">
+      <div class="box main" id="contact">
+        <div class="section">
+          <p class="title is-1 has-text-centered">let's chat</p>
+          <a href="https://github.com/llantukh" class="nav-center">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+            <span class="subtitle">
+              github.com/llantukh
+            </span>
+          </a>
+          <a href="mailto:liliya.lantukh@gmail.com" class="nav-center">
+            <span class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </span>
+            <span class="subtitle">
+              liliya.lantukh@gmail.com
+            </span>
+          </a>
+          <a class="nav-center">
+            <span class="icon">
+              <i class="fa fa-mobile"></i>
+            </span>
+            <span class="subtitle">
+              (404) 358-8062
+            </span>
+          </a>
+        </div>
       </div>
     </div>
 

@@ -37,8 +37,24 @@ body {
   background-color: lightgrey;
 }
 
+.all-content {
+  padding-top: 10%;
+}
+
+// home section
+
+.home-section {
+  min-height: 100vh;
+  background-color: pink;
+  // margin-top: 10%;
+}
 
 // about section
+
+.about-section {
+  min-height: 100vh;
+  background-color: green;
+}
 
 .face {
   width: 48%;
@@ -63,6 +79,11 @@ body {
 }
 
 // projects section
+
+.project-section {
+  min-height: 100vh;
+  background-color: yellow;
+}
 
 .projectGrid {
   margin: 1%;
@@ -144,4 +165,17 @@ ul {
 
 .nav-center {
   margin-top: 2%;
+}
+
+// skills section
+
+.skills-section {
+  min-height: 100vh;
+  background-color: orange;
+
+}
+
+.contact-section {
+  min-height: 100vh;
+  background-color: black;
 }
