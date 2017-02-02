@@ -2,184 +2,177 @@
 
 // all pages
 
-body {
-  background-color: #0D394C;
-}
+    // body {
+    //   background-color: lightgrey;
+    // }
 
-.container {
-  overflow: auto;
+    // .container {
+    //   overflow: auto;
+    // }
 
-}
+    .navigation {
+      background-color: #F5F5F5;
+      color: #0D394C;
+      font-size: 25px;
+      position: fixed;
+      z-index: 5;
+      width: 94%;
+    }
 
-.navigation {
-  background-color: #0D394C;
-  font-size: 25px;
-  position: fixed;
-  z-index: 5;
-  width: 94%;
-  // border-radius: 5px;
-  // border-style: double;
-  // background-color: lightgrey;
-}
+    .box {
+      background-color: lightgrey;
+      border-style: double;
+    }
 
-.main {
-  overflow: auto;
-  // margin-bottom: 5%;
-}
+    .all-content {
+      padding-top: 7%;
+    }
 
-.box {
-  background-color: lightgrey;
-  border-style: double;
-}
+    .greeting {
+      font-size: 100px;
+      text-align: center;
+      color: #0D394C;
+    }
 
-.section {
-  background-color: lightgrey;
-}
+    .fa {
+      color: #0D394C;
+    }
 
-.all-content {
-  padding-top: 7%;
-}
-
-// home section
-
-.home-section {
-  min-height: 100vh;
-  // background-color: pink;
-}
-
-.greeting {
-  font-size: 100px;
-  text-align: center;
-  color: lightgrey;
-}
+    a {
+      text-decoration: none;
+      color: #0D394C;
+    }
 
 // about section
 
-.about-section {
-  min-height: 100vh;
-  // background-color: green;
-}
+    .about-section {
+      min-height: 100vh;
+      background-color: #F5F5F5;
+    }
 
-.face {
-  width: 48%;
-  margin: auto;
-  margin: 1%;
-  padding: 2%;
-  font-size: 20px;
-  float: left;
-}
+    .face {
+      width: 48%;
+      margin: auto;
+      margin: 1%;
+      padding: 2%;
+      font-size: 20px;
+      float: left;
+    }
 
-.title {
-  font-family: 'Homemade Apple', cursive;
-}
+    .title {
+      font-family: 'Homemade Apple', cursive;
+      color: #0D394C;
+    }
 
-.allFont {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-}
+    .allFont {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 20px;
+      color: #0D394C;
+    }
 
-.contact-icons {
-  margin-top: 7%;
-}
+    .contact-icons {
+      margin-top: 7%;
+    }
 
 // projects section
 
-.project-section {
-  min-height: 100vh;
-  // background-color: yellow;
-}
+    .project-section {
+      min-height: 100vh;
+      background-color: white;
+    }
 
-.projectGrid {
-  margin: 1%;
-  background-color: lightgrey;
-  opacity: .9;
-  width: 23%;
-  height: 330px;
-  float: left;
-  padding: 1%;
-  border-style: double;
-  border-radius: 5px;
-}
+    .projectGrid {
+      margin: 1%;
+      background-color: lightgrey;
+      // opacity: .9;
+      width: 23%;
+      height: 330px;
+      float: left;
+      padding: 1%;
+      border-style: double;
+      border-radius: 5px;
+    }
 
-.mouseOver {
-  position: absolute;
-  visibility: hidden;
-  z-index: 2;
-  background-color: #0D394C;
-  opacity: .95;
-  color: white;
-  padding: 2%;
-  font-size: 22px;
-  width: 246px;
-  height: 250px;
-  overflow: auto;
-}
+    .mouseOver {
+      position: absolute;
+      visibility: hidden;
+      z-index: 2;
+      background-color: #0D394C;
+      opacity: .95;
+      color: white;
+      padding: 2%;
+      font-size: 22px;
+      width: 246px;
+      height: 250px;
+      overflow: auto;
+    }
 
-.projectGrid:hover .mouseOver {
-  visibility: visible;
-}
+    .projectGrid:hover .mouseOver {
+      visibility: visible;
+    }
 
 
 // resume section
 
-.resumeSection {
-  margin-top: 100%;
-}
-
-.resume {
-  width: 75%;
-  margin: auto;
-}
-
-.resume-section {
-  color: #0D394C;
-  border-top: 1px solid lightgrey;
-}
-
-.resume-info {
-  margin-left: 1%;
-}
-
-.more-info {
-  margin-left: 1.5%;
-}
-
-.level-right {
-  margin-right: 1.5%;
-}
-
-.even-more-info {
-  margin-left: 2%;
-  list-style: circle;
-}
-
-.job-title {
-  margin-top: none;
-  margin-bottom: 1%;
-  font-style: italic;
-}
-
-ul {
-  list-style: disc;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.nav-center {
-  margin-top: 2%;
-}
+// .resumeSection {
+//   margin-top: 100%;
+// }
+//
+// .resume {
+//   width: 75%;
+//   margin: auto;
+// }
+//
+// .resume-section {
+//   color: #0D394C;
+//   border-top: 1px solid lightgrey;
+// }
+//
+// .resume-info {
+//   margin-left: 1%;
+// }
+//
+// .more-info {
+//   margin-left: 1.5%;
+// }
+//
+// .level-right {
+//   margin-right: 1.5%;
+// }
+//
+// .even-more-info {
+//   margin-left: 2%;
+//   list-style: circle;
+// }
+//
+// .job-title {
+//   margin-top: none;
+//   margin-bottom: 1%;
+//   font-style: italic;
+// }
+//
+// ul {
+//   list-style: disc;
+// }
+//
+// .bold {
+//   font-weight: bold;
+// }
+//
+// .nav-center {
+//   margin-top: 2%;
+// }
 
 // skills section
 
-.skills-section {
-  min-height: 100vh;
-  background-color: orange;
+    .skills-section {
+      min-height: 100vh;
+      background-color: #F5F5F5;
+    }
 
-}
+// contact section
 
-.contact-section {
-  min-height: 100vh;
-  background-color: black;
-}
+    .contact-section {
+      min-height: 100vh;
+      background-color: white;
+    }
