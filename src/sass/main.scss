@@ -43,6 +43,10 @@
       color: #0D394C;
     }
 
+    a:hover, a:focus {
+      color: #5C81B5;
+    }
+
 // about section
 
     .about-section {
@@ -71,7 +75,7 @@
     }
 
     .contact-icons {
-      margin-top: 7%;
+      margin-top: 6.5%;
     }
 
 // projects section
@@ -168,6 +172,13 @@
     .skills-section {
       min-height: 100vh;
       background-color: #F5F5F5;
+    }
+
+    .skills-list {
+      width: 50%;
+      margin: auto;
+      margin-top: 2%;
+      font-size: 30px;
     }
 
 // contact section
