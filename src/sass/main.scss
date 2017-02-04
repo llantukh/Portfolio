@@ -2,14 +2,6 @@
 
 // all pages
 
-    // body {
-    //   background-color: lightgrey;
-    // }
-
-    // .container {
-    //   overflow: auto;
-    // }
-
     .navigation {
       background-color: #F5F5F5;
       color: #0D394C;
@@ -42,10 +34,6 @@
       text-decoration: none;
       color: #0D394C;
     }
-
-    // a:hover, a:focus {
-    //   color: #5C81B5;
-    // }
 
 // about section
 
@@ -88,7 +76,6 @@
     .projectGrid {
       margin: 1%;
       background-color: lightgrey;
-      // opacity: .9;
       width: 23%;
       height: 330px;
       float: left;
@@ -114,58 +101,6 @@
     .projectGrid:hover .mouseOver {
       visibility: visible;
     }
-
-
-// resume section
-
-// .resumeSection {
-//   margin-top: 100%;
-// }
-//
-// .resume {
-//   width: 75%;
-//   margin: auto;
-// }
-//
-// .resume-section {
-//   color: #0D394C;
-//   border-top: 1px solid lightgrey;
-// }
-//
-// .resume-info {
-//   margin-left: 1%;
-// }
-//
-// .more-info {
-//   margin-left: 1.5%;
-// }
-//
-// .level-right {
-//   margin-right: 1.5%;
-// }
-//
-// .even-more-info {
-//   margin-left: 2%;
-//   list-style: circle;
-// }
-//
-// .job-title {
-//   margin-top: none;
-//   margin-bottom: 1%;
-//   font-style: italic;
-// }
-//
-// ul {
-//   list-style: disc;
-// }
-//
-// .bold {
-//   font-weight: bold;
-// }
-//
-// .nav-center {
-//   margin-top: 2%;
-// }
 
 // skills section
 
